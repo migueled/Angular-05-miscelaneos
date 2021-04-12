@@ -18,25 +18,26 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NgStyleComponent,
-    CssComponent,
-    ClasesComponent,
-    ResaltadoDirective,
-    NgSwitchComponent,
-    HomeComponent,
-    UsuarioComponent,
-    UsuarioNuevoComponent,
-    UsuarioEditarComponent,
-    UsuarioDetalleComponent,
-    NavbarComponent
-  ],
-  imports: [
-    BrowserModule,
-    APP_ROUTING
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NgStyleComponent,
+        CssComponent,
+        ClasesComponent,
+        ResaltadoDirective,
+        NgSwitchComponent,
+        HomeComponent,
+        UsuarioComponent,
+        UsuarioNuevoComponent,
+        UsuarioEditarComponent,
+        UsuarioDetalleComponent,
+        NavbarComponent
+    ],
+    imports: [
+        BrowserModule,
+        APP_ROUTING
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
+
 export class AppModule { }

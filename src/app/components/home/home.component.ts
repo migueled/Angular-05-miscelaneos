@@ -1,54 +1,55 @@
 import { Component, OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  template: `
-    <app-ng-style></app-ng-style>
+    selector: 'app-home',
+    template: `
+        <app-ng-style></app-ng-style>
 
-    <app-css></app-css>
+        <app-css></app-css>
 
-    <app-clases></app-clases>
+        <app-clases></app-clases>
 
-    <p [appResaltado]="'orange'">hola mundo</p>
+        <p [appResaltado]="'orange'">hola mundo</p>
 
-    <app-ng-switch></app-ng-switch>
-  `,
-  styles: [],
+        <app-ng-switch></app-ng-switch>
+    `,
+    styles: [],
 })
+
 export class HomeComponent implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
-  constructor() {
-    console.log('constructor');
-  }
+    constructor() {
+        console.log('constructor');
+    }
 
-  ngOnInit(): void {
-    console.log('ngOnInit');
-  }
+    ngOnInit(): void {
+        console.log('ngOnInit');
+    }
 
-  ngOnChanges() {
-    console.log('ngOnChanges');
-  }
+    ngOnChanges() {
+        console.log('ngOnChanges');
+    }
 
-  ngDoCheck() {
-    console.log('ngDoCheck');
-  }
+    ngDoCheck() {
+        console.log('ngDoCheck');
+    }
 
-  ngAfterContentInit() {
-    console.log('ngAfterContentInit');
-  }
+    ngAfterContentInit() {
+        console.log('ngAfterContentInit');
+    }
 
-  ngAfterContentChecked() {
-    console.log('ngAfterContentChecked');
-  }
+    ngAfterContentChecked() {
+        console.log('ngAfterContentChecked');
+    }
 
-  ngAfterViewInit() {
-    console.log('ngAfterViewInit');
-  }
+    ngAfterViewInit() {
+        console.log('ngAfterViewInit');
+    }
 
-  ngAfterViewChecked() {
-    console.log('ngAfterViewChecked');
-  }
+    ngAfterViewChecked() {
+        console.log('ngAfterViewChecked');
+    }
 
-  ngOnDestroy() {
-    console.log('ngOnDestroy');
-  }
+    ngOnDestroy() {
+        console.log('ngOnDestroy');
+    }
 }

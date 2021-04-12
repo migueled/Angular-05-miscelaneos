@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-usuario-detalle',
-  template: `
-    <p>
-      usuario-detalle works!
-    </p>
-  `,
-  styles: [
-  ]
+    selector: 'app-usuario-detalle',
+    template: `
+        <p>
+            usuario-detalle works!
+        </p>
+    `,
+    styles: [
+    ]
 })
+
 export class UsuarioDetalleComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
 
 }
